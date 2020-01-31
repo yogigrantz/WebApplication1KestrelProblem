@@ -2,6 +2,8 @@
 
 This is an out-of-the box Web application created with Visual zstudio 2019 - for .net core 3.0 Web application
 
+.net SDK 3.0.102 (for Docker)
+
 When publishing this solution and try to run the executable, it raised a Kestrel error:
 
 System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
