@@ -14,10 +14,5 @@ System.Net.Sockets.SocketException (10013): An attempt was made to access a sock
     
   This error screen came up really really fast, and then disappeared. I had to take a picture of it with my phone, and then retype here
   
-  When this solution is published in an environment with VS 2019 version 16.3.9 or earlier, then there is no Kestrel issue.
-  When this solution is published in an environment with VS 2019 version 16.4.4, then there comes Kestrel issue.
-  
-  Does Visual Studio really update the .net core publisher? It is ok as long as it does not break the Kestrel, but this ... not good
-  
-  
+  This issue is caused by a running IIS. I stopped IIS, and Kestrel ran fine. Problem SOLVED!
   
